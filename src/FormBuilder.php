@@ -19,7 +19,7 @@ class FormBuilder {
 	/**
 	 * The URL generator instance.
 	 *
-	 * @var \Illuminate\Routing\UrlGenerator  $url
+	 * @var \Laravel\Lumen\Routing\UrlGenerator  $url
 	 */
 	protected $url;
 
