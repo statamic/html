@@ -1,6 +1,6 @@
 <?php namespace Collective\Html;
 
-use Illuminate\Routing\UrlGenerator;
+use Laravel\Lumen\Routing\UrlGenerator;
 use Illuminate\Support\Traits\Macroable;
 
 class HtmlBuilder {

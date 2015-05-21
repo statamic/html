@@ -1,7 +1,7 @@
 <?php namespace Collective\Html;
 
 use DateTime;
-use Illuminate\Routing\UrlGenerator;
+use Laravel\Lumen\Routing\UrlGenerator;
 use Illuminate\Session\Store as Session;
 use Illuminate\Support\Traits\Macroable;
 
