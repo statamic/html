@@ -10,14 +10,14 @@ class HtmlBuilder {
 	/**
 	 * The URL generator instance.
 	 *
-	 * @var \Illuminate\Routing\UrlGenerator
+	 * @var \Laravel\Lumen\Routing\UrlGenerator
 	 */
 	protected $url;
 
 	/**
 	 * Create a new HTML builder instance.
 	 *
-	 * @param  \Laravel\Lumen\Routing\UrlGenerator  $url
+	 * @param  \Collective\Html\HtmlBuilder
 	 * @return void
 	 */
 	public function __construct(UrlGenerator $url = null)
